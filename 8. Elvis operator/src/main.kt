@@ -3,6 +3,6 @@ fun f(msg: String?): String? {
 }
 
 fun main(args: Array<String>) {
-    print(f("qwe"))
-    print(f(null))
+    println(f("qwe"))
+    println(f(null))
 }
