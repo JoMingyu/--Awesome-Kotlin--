@@ -1,29 +1,43 @@
 class Post constructor(title: String = "", content: String = "", owner: String = "private") {
-    init {
-        println("In constructor")
-    }
+    // Class with constructor
 
-    val title = title
-    val content = content
-    val owner = owner.toUpperCase()
-}
-
-class Post2(title: String = "", content: String = "", owner: String = "private") {
-    init {
-        println("In constructor")
-    }
-
-    val title = title
-    val content = content
-    val owner = owner.toUpperCase()
-}
-
-class Post3 {
     var title: String = ""
     var content: String = ""
     var owner: String = ""
 
     init {
+        this.title = title
+        this.content = content
+        this.owner = owner.toUpperCase()
+        println("Initialized ${this.title}, ${this.content}, ${this.owner}")
+    }
+}
+
+class Post2(title: String = "", content: String = "", owner: String = "private") {
+    // Omit constructor keyword
+
+    var title: String = ""
+    var content: String = ""
+    var owner: String = ""
+
+    init {
+        this.title = title
+        this.content = content
+        this.owner = owner.toUpperCase()
+        println("Initialized ${this.title}, ${this.content}, ${this.owner}")
+    }
+
+}
+
+class Post3 {
+    // Disperse constructors
+
+    var title: String = ""
+    var content: String = ""
+    var owner: String = ""
+
+    init {
+        // Every instances
     }
 
     constructor() {
