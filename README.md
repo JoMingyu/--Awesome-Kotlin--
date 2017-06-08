@@ -17,7 +17,7 @@ val : read-only
         
         }
     }
-    class [Name](...) {
+    class [Name](...) {
         // Omit constructor keyword
         init {
       
