@@ -7,7 +7,8 @@
   3. elvis operator
   4. fun
   5. for & if
-  6. class & constructor
-  7. open class & inheritance
-  8. open fun & override
-  9. private constructor & companion object
+  6. when
+  7. class & constructor
+  8. open class & inheritance
+  9. open fun & override
+  10. private constructor & companion object
