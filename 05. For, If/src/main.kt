@@ -11,4 +11,11 @@ fun main(args: Array<String>) {
     repeat(10) { i ->
         println("Repeat $i")
     }
+
+    var index: Int = 0
+    while(true) {
+        if(index++ == 100) {
+            break
+        }
+    }
 }
