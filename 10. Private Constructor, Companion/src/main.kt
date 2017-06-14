@@ -1,6 +1,6 @@
 class C private constructor() {
     companion object {
-        val c = C()
+        private val c = C()
         fun getInstance(): C {
             return c
         }
