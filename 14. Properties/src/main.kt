@@ -1,12 +1,12 @@
 class C {
-    private var title: String = ""
+    var title: String = ""
         get() = field
         set(value) {
             println("Set title $value")
             field = value
         }
 
-    private var content: String = ""
+    var content: String = ""
         get() = field
         set(value) {
             println("Set content $value")
@@ -22,8 +22,8 @@ class C {
 
 fun main(args: Array<String>) {
     var c = C()
-    c.title = "qwe"
-    c.content = "sdqwe"
+    c.title = "hello"
+    c.content = "hi"
 
     println("${c.title}, ${c.content}")
 }
