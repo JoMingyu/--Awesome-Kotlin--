@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     if(result != null) {
         val groups: MatchGroupCollection = result.groups
         for(group: MatchGroup? in groups) {
-            println(group.)
+
         }
     }
 }
