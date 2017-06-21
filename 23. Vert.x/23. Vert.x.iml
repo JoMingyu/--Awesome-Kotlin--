@@ -49,7 +49,5 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" level="project" />
-    <orderEntry type="library" name="Maven: io.vertx:vertx-web:3.4.2" level="project" />
-    <orderEntry type="library" name="Maven: io.vertx:vertx-auth-common:3.4.2" level="project" />
   </component>
 </module>
