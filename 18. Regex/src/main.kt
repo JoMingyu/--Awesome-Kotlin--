@@ -3,12 +3,9 @@ fun main(args: Array<String>) {
     println(s.matches(Regex("\\w\\w+")))
 
     val regex: Regex = Regex("[a-z]+")
-    val result: MatchResult? = regex.find(s)
+    val result = regex.findAll(s)
 
-    if(result != null) {
-        val groups: MatchGroupCollection = result.groups
-        for(group: MatchGroup? in groups) {
-
-        }
+    for(res: MatchResult in result) {
+        println(res.value)
     }
 }
