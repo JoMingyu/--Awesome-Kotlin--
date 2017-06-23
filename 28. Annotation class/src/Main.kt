@@ -9,5 +9,5 @@ annotation class Nice(
 )
 
 @Hello @Nice("okok") fun main(args: Array<String>) {
-    
+
 }
