@@ -16,3 +16,5 @@ Data class
 Collections
 
 Higher Order Function
+
+##### 이거 끝나면 루비 해야지
